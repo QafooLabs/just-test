@@ -11,11 +11,5 @@ describe('In-Page-Testing', function() {
         it('is available by default', function() {
             expect(inPageTesting.hasNavigationElement()).toBe(true);
         });
-
-        // better example
-        it('is is true if there is a <nav> Element on the page', function() {
-            jasmine.getFixtures().set('<nav></nav>');
-            expect(inPageTesting.hasNavigationElement()).toBe(true);
-        });
     });
 });
