@@ -5,10 +5,6 @@ describe('Shared state', function() {
         sharedState = new IPC.SharedState();
     });
 
-//    afterEach(function() {
-//        IPC.PageState.setState('start');
-//    });
-//
 //    // Breaks the test
 //    describe('someOtherActionDependingOnPageState()', function() {
 //        it('breaks my other tests', function() {
