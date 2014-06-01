@@ -1,5 +1,7 @@
 <?php
 
+require_once __DIR__ . '/PermissionResolver.php';
+
 class PermissionResolverTest extends \PHPUnit_Framework_TestCase
 {
     public function testReadPermissionDenied()
