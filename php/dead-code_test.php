@@ -1,6 +1,6 @@
 <?php
 
-class DeadCodeTest extends PHPUnit_Framework_TestCase
+class DeadCodeTest extends \PHPUnit_Framework_TestCase
 {
     public function setUp()
     {
