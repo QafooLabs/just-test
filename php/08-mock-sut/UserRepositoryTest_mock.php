@@ -6,7 +6,7 @@ class UserRepositoryTest extends \PHPUnit_Framework_TestCase
     {
         $userRepository = $this->getMockBuilder('UserRepository')
             ->disableOriginalConstructor()
-            ->setMethods('query')
+            ->setMethods(array('query'))
             ->getMock();
 
         $userRepository->expects($this->any())
