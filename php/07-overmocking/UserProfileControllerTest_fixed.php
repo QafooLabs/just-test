@@ -13,11 +13,11 @@ class UserProfileControllerTest extends \PHPUnit_Framework_TestCase
         $profileUser = new User(23);
         $viewingUser = new User(42);
 
-        $userRepositoryStub->expects($this->at(0))
+        $userRepositoryStub->expects($this->any())
             ->method('loadUser')
             ->will($this->onConsecutiveCalls($profileUser, $viewingUser));
 
-        $relationshipResolverStub->expects($this->once())
+        $relationshipResolverStub->expects($this->any())
             ->method('areCloseConnected')
             ->will($this->returnValue(true));
 
