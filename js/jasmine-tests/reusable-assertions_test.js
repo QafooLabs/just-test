@@ -5,7 +5,6 @@ describe('Reusable Assertions', function() {
         reusableAssertions = new IPC.ReusableAssertions();
     });
 
-    // ugly example
     describe('loadUser', function() {
         it('sends tracking info when successfully loading a user', function() {
             var trackingSpy = {

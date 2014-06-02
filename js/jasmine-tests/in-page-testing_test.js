@@ -7,7 +7,6 @@ describe('In-Page-Testing', function() {
 
     describe('hasNavigationElement()', function() {
 
-        // ugly example
         it('is available by default', function() {
             expect(inPageTesting.hasNavigationElement()).toBe(true);
         });

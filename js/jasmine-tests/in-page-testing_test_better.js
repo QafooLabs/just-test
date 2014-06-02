@@ -7,7 +7,6 @@ describe('In-Page-Testing', function() {
 
 	describe('hasNavigationElement()', function() {
 
-		// better example
 		it('is is true if there is a <nav> Element on the page', function() {
 			jasmine.getFixtures().set('<nav></nav>');
 			expect(inPageTesting.hasNavigationElement()).toBe(true);

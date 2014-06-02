@@ -5,7 +5,6 @@ describe('TooManyAssertions', function() {
 		factory = new IPC.TooManyAssertions();
 	});
 
-	// Better example
     describe('isName(), setName()', function() {
         it('has a default', function() {
             expect(factory.isName('default')).toBe(true);
