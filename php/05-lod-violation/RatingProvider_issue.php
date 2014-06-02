@@ -4,9 +4,9 @@ class RatingProvider
 {
     private $appRegistry;
 
-    public function __construct(AppRegistry $registry)
+    public function __construct(AppRegistry $appRegistry)
     {
-        $this->registry = $registry;
+        $this->appRegistry = $appRegistry;
     }
 
     public function loadRating($productId)
